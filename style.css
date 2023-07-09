@@ -4,6 +4,7 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+/* header nav section */
 header {
     background: #FFF8F3;
 }
@@ -51,11 +52,15 @@ li a {
     border-radius: 5px;
     background: #FD6E0A;
     border: none;
-
 }
 
 .primary-color {
     color: #FD6E0A;
+}
+
+/* banner home section */
+section {
+    margin: 0 100px;
 }
 
 .banner {
@@ -86,8 +91,10 @@ li a {
 
 .banner-btn {
     margin-right: 20px;
+    margin-bottom: 280px;
 }
 
+/* about section */
 .about-container {
     max-width: 1140px;
     background: #FFF8F3;
@@ -106,4 +113,41 @@ li a {
     display: flex;
     text-align: center;
     justify-content: space-between;
+}
+
+.section-desc {
+    text-align: center;
+    padding: 0 160px;
+}
+
+/* skills section */
+.skill-box-container {
+    display: flex;
+}
+
+.skill-box {
+    padding: 30px 30px 10px 30px;
+
+    justify-content: space-around;
+    margin: 14px;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.box-title {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.box-description {
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+    font-weight: 400;
+}
+
+/* resume section */
+.resume-container {
+    display: flex;
 }
