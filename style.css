@@ -192,3 +192,46 @@ hr {
     margin-top: 50px;
     text-align: center;
 }
+
+
+/* Contact Section */
+footer {
+    background:#FFF8F3;
+    padding: 100px 0;
+}
+.contact {
+    display: flex;
+    gap: 117px;
+}
+
+.text-content {
+    width: 50%;
+}
+
+.contact-title {
+    font-size: 35px;
+    color: #181818;
+    font-weight: 700;
+}
+.contact-description{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #474747;
+}
+
+form input{
+    padding: 18px 0 20px 25px ;
+    margin-bottom: 20px ;
+    display: block;
+    border: none;
+    outline: none;
+    width: 100%;
+}
+.message {
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 18px 0 20px 25px ;
+    margin-bottom: 20px;
+}
